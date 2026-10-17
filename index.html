@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bookcase Math - bookcase capacity honesty</title>
+<style>
+  :root { --accent:#5d4037; --ink:#2e2620; --paper:#f7f3ec; --soft:#efe7da; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, 'Times New Roman', serif; background:var(--paper); color:var(--ink); line-height:1.55; padding:2.5rem 1.2rem; }
+  main { max-width:660px; margin:0 auto; }
+  h1 { font-size:2.2rem; letter-spacing:.5px; color:var(--accent); }
+  p.lede { font-size:1.12rem; margin:.9rem 0 1.6rem; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; margin-bottom:1.6rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  section { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1.1rem 1.2rem; margin-bottom:1.2rem; }
+  h2 { font-size:1.18rem; margin-bottom:.5rem; }
+  section p { font-size:.98rem; }
+  a.btn { display:inline-block; margin-top:1.4rem; background:var(--accent); color:#fff; text-decoration:none; padding:.8rem 1.6rem; border-radius:999px; font-size:1.05rem; }
+  footer { margin-top:2.2rem; font-size:.85rem; color:#6e6252; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Bookcase Math</h1>
+  <p class="lede">The box says 100 books. Your books are not the box's books.</p>
+  <div class="boundary">
+    <strong>Boundary: counting arithmetic only</strong>
+    Bookcase Math counts books, shelves, and inches of wall. It never tells you what a shelf can hold in weight or whether a bookcase is anchored - those belong to the manufacturer and a stud finder.
+  </div>
+  <section>
+    <h2>The shelf truth</h2>
+    <p>Count the books in one foot of your own shelf - 9 is normal, the box photo used paperbacks turned sideways. Your 32-inch shelf at 9 books a foot holds 24.</p>
+  </section>
+  <section>
+    <h2>The collection truth</h2>
+    <p>60 books at 24 a shelf is 3 shelves, with 12 to spare. 49 books is already the second bookcase.</p>
+  </section>
+  <section>
+    <h2>The wall truth</h2>
+    <p>3 shelves of 32 inches need 8 feet of wall. Your 6.5 feet leaves 1.5 short - the hallway was always going to get one.</p>
+  </section>
+  <a class="btn" href="app.html">Run your numbers</a>
+  <footer>Bookcase Math is exact arithmetic over your own counts and tape-measure numbers, nothing more.</footer>
+</main>
+</body>
+</html>
