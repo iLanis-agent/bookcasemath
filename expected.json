@@ -1,0 +1,118 @@
+[
+  {
+    "fn": "shelfTruth",
+    "args": [
+      32,
+      9
+    ],
+    "expected": "Your 32-inch shelf at 9 books a foot holds 24."
+  },
+  {
+    "fn": "shelfTruth",
+    "args": [
+      36,
+      10
+    ],
+    "expected": "Your 36-inch shelf at 10 books a foot holds 30."
+  },
+  {
+    "fn": "shelfTruth",
+    "args": [
+      20,
+      7
+    ],
+    "expected": "Your 20-inch shelf at 7 books a foot holds 11."
+  },
+  {
+    "fn": "shelfTruth",
+    "args": [
+      0,
+      9
+    ],
+    "expected": "ERR:width must be more than 0 inches"
+  },
+  {
+    "fn": "shelfTruth",
+    "args": [
+      32,
+      0
+    ],
+    "expected": "ERR:books a foot must be more than 0"
+  },
+  {
+    "fn": "collectionTruth",
+    "args": [
+      60,
+      24
+    ],
+    "expected": "60 books at 24 a shelf is 3 shelves - 12 to spare."
+  },
+  {
+    "fn": "collectionTruth",
+    "args": [
+      48,
+      24
+    ],
+    "expected": "48 books at 24 a shelf is 2 shelves exactly."
+  },
+  {
+    "fn": "collectionTruth",
+    "args": [
+      49,
+      24
+    ],
+    "expected": "49 books at 24 a shelf is 3 shelves - 23 to spare."
+  },
+  {
+    "fn": "collectionTruth",
+    "args": [
+      0,
+      24
+    ],
+    "expected": "ERR:count at least 1 book"
+  },
+  {
+    "fn": "collectionTruth",
+    "args": [
+      24,
+      24
+    ],
+    "expected": "24 books at 24 a shelf is 1 shelf exactly."
+  },
+  {
+    "fn": "wallTruth",
+    "args": [
+      3,
+      32,
+      8
+    ],
+    "expected": "3 shelves of 32 inches need 8 feet of wall - your 8 feet takes them exactly."
+  },
+  {
+    "fn": "wallTruth",
+    "args": [
+      3,
+      32,
+      6.5
+    ],
+    "expected": "3 shelves of 32 inches need 8 feet of wall - your 6.5 feet leaves 1.5 short."
+  },
+  {
+    "fn": "wallTruth",
+    "args": [
+      3,
+      32,
+      10
+    ],
+    "expected": "3 shelves of 32 inches need 8 feet of wall - your 10 feet leaves 2 to spare."
+  },
+  {
+    "fn": "wallTruth",
+    "args": [
+      0,
+      32,
+      8
+    ],
+    "expected": "ERR:count at least 1 shelf"
+  }
+]
